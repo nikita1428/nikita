@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Porfolio Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+  </head>
+  <body>
+    <div class="scroll-up-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+    <nav class="navbar">
+      <div class="max-width">
+        <div class="logo">
+          <img src="img/NIKI.png"></img>
+        </div>
+        <ui class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Proects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ui>
+        <div class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!--home section start-->
+    <section class="home" id="home">
+      <div class="max-width">
+        <div class="home-content">
+          <div class="text-1">Hello, my name is</div>
+          <div class="text-2">Nikita Kashyap</div>
+          <div class="text-3">
+            And I'm a
+            <span class="text-slider-items" style="display: none"
+              >Webdeginer, Webdeveloper, Freelancer</span
+            >
+            <strong class="text-slider" style="color: crimson"></strong>
+          </div>
+
+          <a href="#">Hire me</a>
+        </div>
+      </div>
+    </section>
+
+    <!--about section start-->
+    <section class="about" id="about">
+      <div class="max-width">
+        <h2 class="title">About me</h2>
+        <div class="about-content">
+          <div class="column left">
+            <img src="img/nikita1.jpg" alt="" />
+          </div>
+          <div class="column right">
+            <div class="text">
+              I'm Nikita Kashyap and I'm a <span>WebDeveloper</span>
+            </div>
+            <p>
+              Intend to build a career with leading corporate of hi-tech
+              environment with committed & dedicated people, which will help me
+              to explore myself fully and realize my potential. I am also
+              passionate about building excellent websites that improves the
+              lives of those around me. i specialize in creating website for
+              client ranging from individuals and small business all the way to
+              large corporations.
+            </p>
+            <a href="./resume/NikitaResume.pdf" download
+              ><i class="fa fa-download"></i> Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--services section start-->
+    <section class="services" id="services">
+      <div class="max-width">
+        <h2 class="title">My services</h2>
+        <div class="serv-content">
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-paint-brush"></i>
+              <div class="text">Web Designer</div>
+              <p>
+                "We help business to create awsome websites for their product
+                and service"
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-chart-line"></i>
+              <div class="text">Enterprise Web developer</div>
+              <p>
+                We develop several custom B2C portals, Enterprise Information
+                System.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="box">
+              <i class="fas fa-code"></i>
+              <div class="text">Ms Excel</div>
+              <p>i also have knowledge about msExcel to a great extend.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--skills section start-->
+    <section class="skills" id="skills">
+      <div class="max-width">
+        <h2 class="title">My skills</h2>
+        <div class="skills-content">
+          <div class="column left">
+            <div class="text">My creative skills & experiences.</div>
+            <p>
+              i can work on interactive & attractive websites designing and
+              development apart from this i can also work database, error
+              detection and solutions and admin panel using codeigniter. <span id="hidepart" style="display: none;"> i had
+              worked on Sain Ventures Sotware Company in Raipur(cg). i had
+              worked as a trinee developer for a 6 month. currently i am working on 
+              Arosys Technologies Private Limited from Bhilai Chhattisgarh. My position
+              from this company as a junior WebDeveloper.</span> 
+            </p>
+            <a  onclick="togglefunction()">Read more</a>
+          </div>
+          <div class="column right">
+            <div class="bars">
+              <div class="info">
+                <span>HTML</span>
+                <span>90%</span>
+              </div>
+              <div class="line html"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>CSS</span>
+                <span>70%</span>
+              </div>
+              <div class="line css"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>bootstrap</span>
+                <span>90%</span>
+              </div>
+              <div class="line bootstrap"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>javascript</span>
+                <span>40%</span>
+              </div>
+              <div class="line js"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>php</span>
+                <span>50%</span>
+              </div>
+              <div class="line php"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>MySQL</span>
+                <span>80%</span>
+              </div>
+              <div class="line mysql"></div>
+            </div>
+            <div class="bars">
+              <div class="info">
+                <span>ms-word excel</span>
+                <span>70%</span>
+              </div>
+              <div class="line msexcel"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--projects section start-->
+    <section class="projects" id="projects">
+      <div class="max-width">
+        <h2 class="title">My projects</h2>
+        <div class="carousel owl-carousel">
+          <div class="card">
+            <div class="box">
+              <a href="https://www.premisin.com/" target="_blank">
+                <img src="img/premisin.png" alt="" />
+                <div class="text">Premisin</div>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a href="https://soilab.ae/" target="_blank">
+                <img src="img/soilab.png" alt="" />
+                <div class="text">SoiLab</div>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a href="https://tutoratti.com/" target="_blank">
+                <img src="img/tutoratti.jpg" alt="" />
+                <div class="text">Tutoratti</div>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a href="https://tracking.banjarapipes.com/" target="_blank">
+                <img src="img/banarapipe.jpg" alt="" />
+                <div class="text">Banjara Pipes</div>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a href="https://demo3.sjainventures.com/smallbox/" target="_blank">
+                <img src="img/smallbox.png" alt="" />
+                <div class="text">SmallBox</div>
+              </a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="box">
+              <a href="https://www.moserrc.com/" target="_blank">
+                <img src="img/moserrc.png" alt="" />
+                <div class="text">Moserrc</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--contact section styling-->
+    <section class="contact" id="contact">
+      <div class="max-width">
+        <h2 class="title">Contact me</h2>
+        <div class="contact-content">
+          <div class="column left">
+            <div class="text">Get in Touch</div>
+            <p>If you know any queries about me. then contact me via emails</p>
+            <div class="icons">
+              <div class="row">
+                <i class="fas fa-user"></i>
+                <div class="info">
+                  <div class="head">Name</div>
+                  <div class="sub-title">Nikita Kashyap</div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="info">
+                  <div class="head">Address</div>
+                  <div class="sub-title">Bilaspur, Chhattisgarh, India</div>
+                </div>
+              </div>
+              <div class="row">
+                <i class="fas fa-envelope"></i>
+                <div class="info">
+                  <div class="head">Email</div>
+                  <div class="sub-title">Nikitakashyap31@gmail.com</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column right">
+            <div class="card">
+              <div class="box">
+                <div class="text">Message me</div>
+                <form >
+                  <div class="fields">
+                    <div class="field name">
+                      <input type="text" id="name" placeholder="Name" />
+                    </div>
+                    <div class="field email">
+                      <input type="email" id="email" placeholder="Email" />
+                    </div>
+                  </div>
+
+                  <div class="field">
+                    <input type="text" id="subect" placeholder="subect" />
+                  </div>
+                  <div class="field textarea">
+                    <textarea
+                      cols="30"
+                      rows="10"
+                      id="message"
+                      placeholder="Describe project..."
+                    ></textarea>
+                  </div>
+                  <div class="button">
+                    <button type="submit" onclick="sendEmail()" >Send Message</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div id="status"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--footer section start-->
+    <footer>
+      <div class="centerdiv">
+        <a
+          href="https://instagram.com/nikitaa_14_?utm_medium=copy_link"
+          target="_blank"
+        >
+          <i class="fab fa-2x fa-instagram"></i>
+        </a>
+
+        <a href="" target="_blank">
+          <i class="fab fa-2x fa-linkedin"></i>
+        </a>
+
+        <a href="" target="_blank">
+          <i class="fab fa-2x fa-facebook"></i>
+        </a>
+
+        <a href="https://github.com/nikita1428" target="_blank">
+          <i class="fab fa-2x fa-github"></i>
+        </a>
+
+        <a href="" target="_blank">
+          <i class="fas fa-2x fa-envelope-square"></i>
+        </a>
+      </div>
+      <span
+        >Created By <a href="#">Nikita Kashyap</a>
+        <span class="far fa-copyright"></span>2022 All rights reserved.</span
+      >
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/script.js"></script>
+    <script>
+      if ($(".text-slider").length == 1) {
+        var typed_strings = $(".text-slider-items").text();
+
+        var typed = new Typed(".text-slider", {
+          strings: typed_strings.split(", "),
+          typeSpeed: 50,
+          loop: true,
+          backDelay: 900,
+          backSpeed: 30,
+        });
+      }
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+            Host : "smtp.elasticemail.com",
+            Username : "nikitakashyap31@gmail.com",
+            Password : "2715B95B6CC6AAA10D39E83FE76382CF0CF5",
+            To : document.getElementById("email").value,
+            From : "nikitakashyap31@gmail.com",
+            Subject : document.getElementById("subect").value,
+            Body : document.getElementById("message").value
+           }).then(
+          message => alert(message)
+          );
+       }
+
+
+       function togglefunction() {
+            var x = document.getElementById("hidepart");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+  </body>
+</html>
